@@ -1,0 +1,7 @@
+#Ignore .tfvars to avoid exposing secrets in public env.
+*.tfvars
+
+#Ignore state files
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
